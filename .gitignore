@@ -1,0 +1,40 @@
+# Secrets and machine configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Python and private application data
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+backend/data/
+data/
+.data/
+uploads/
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# Frontend and local tooling
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+playwright-report/
+test-results/
+.local/
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
